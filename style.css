@@ -58,6 +58,7 @@ header nav form{
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     grid-gap:40px;
     width: 80%;
+    
     margin: 10px  auto;
     padding: 20px;
     place-items: center;
@@ -70,7 +71,7 @@ header nav form{
     border-radius: 5px;
     box-shadow:  0 5px 10px rgba(78,73,73,0.1), -5px -5px 10px rgba(34,34,34,0.5);
     cursor: pointer;
-    max-width: 300px;
+    max-width: 350px;
     transition: transform 0.3s ease-in-out;
 }
 .recipe:hover{
@@ -116,7 +117,8 @@ header nav form{
     transform: translate(-50%,-50%);
     background-color: #694c2f;
     border-radius: 12px;
-    width:40%;
+    width:90%;
+    max-width: 500px;
     height: 60%;
     font-size: 20px;
     transition: all 0.5s ease-in-out;
@@ -195,8 +197,6 @@ body::-webkit-scrollbar-track{
         margin: 5px;
         padding: 5px;
         border-radius: 5px;
-        
-       
     }
    
 }
